@@ -1,0 +1,186 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: left;
+}
+
+body{ 
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1{
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 800;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+p{
+    color: grey
+}
+
+
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+
+/* nav bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-Light', sans-serif;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+/* download btn */
+
+.btn-download{
+    margin: 5% 3% 5% 0;
+}
+
+/* title img */
+
+.title-img{
+    width: 55%;
+    transform: rotate(30deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* features */
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color:#ff4c68
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials{
+    background-color: #ef8172;
+    color: white;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* press */
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* pricing */
+
+#pricing{
+    padding: 100px;
+}
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+
+/* call to action */
+
+#cta{
+    background-color: #ff4c68;
+    font-family: "Montserrat";
+    color: white;
+    font-weight: 800;
+    padding: 7% 15%;
+}
+
+#cta h3{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* FOOTER */
+
+#footer{
+    background-color: #fff;
+    padding: 7% 15%;
+}
+
+
+.soc{
+    margin: 20px 10px;
+}
+
+.cr{
+    margin-top: 1rem;
+    position: relative;
+    right: auto;
+    left:auto
+}
+
+/* MEDIA QUERY */
+
+@media (max-width:1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
